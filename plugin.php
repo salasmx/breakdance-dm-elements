@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Plugin Name: Breakdance Custom Elements
- * Plugin URI: https://breakdance.com/
- * Description: ALPHA - NOT TO BE USED IN PRODUCTION
+ * Plugin Name: Digital Makers BD Elements
+ * Plugin URI: https://digitalmakers.mx/bd-elements/
+ * Description: Add new elements into your Breakdance installation.
  * Author: Breakdance
- * Author URI: https://breakdance.com/
+ * Author URI: https://digitalmakers.mx/bd-elements/
  * License: GPLv2
  * Text Domain: breakdance
  * Domain Path: /languages/
