@@ -1,1 +1,24 @@
- 
+.breakdance .dm__hotspot {}
+
+.breakdance .dm__hotspot .spot--wrapper {
+  position: relative;
+}
+.breakdance .dm__hotspot .spot--image {
+}
+.breakdance .dm__hotspot .spot--image img {
+  display: block;
+}
+.breakdance .dm__hotspot .spot--icon {
+  position: absolute;
+  display: flex;
+  color: #ff0000;
+  font-size: 24px;
+}
+.breakdance .dm__hotspot .spot--icon > svg {
+  font-size: inherit;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
