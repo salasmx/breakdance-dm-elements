@@ -86,15 +86,7 @@ class ImageHotspot extends \Breakdance\Elements\Element
 
     static function designControls()
     {
-        return [c(
-        "new_section",
-        "New Section",
-        [],
-        ['type' => 'section'],
-        false,
-        false,
-        [],
-      )];
+        return [];
     }
 
     static function contentControls()
