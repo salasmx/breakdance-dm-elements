@@ -87,6 +87,32 @@ class AdvancedList extends \Breakdance\Elements\Element
     static function designControls()
     {
         return [c(
+        "wrapper",
+        "Wrapper",
+        [c(
+        "background",
+        "Background",
+        [],
+        ['type' => 'color', 'layout' => 'inline'],
+        false,
+        false,
+        [],
+      ), getPresetSection(
+      "EssentialElements\\spacing_padding_all",
+      "Padding",
+      "padding",
+       ['type' => 'popout']
+     ), getPresetSection(
+      "EssentialElements\\borders_without_shadows",
+      "Border",
+      "border",
+       ['type' => 'popout']
+     )],
+        ['type' => 'section'],
+        false,
+        false,
+        [],
+      ), c(
         "layout",
         "Layout",
         [c(
@@ -484,7 +510,7 @@ class AdvancedList extends \Breakdance\Elements\Element
 
     static function dynamicPropertyPaths()
     {
-        return ['0' => ['accepts' => 'string', 'path' => 'content.advanced_list.heading'], '1' => ['accepts' => 'string', 'path' => 'content.list.links[].url'], '2' => ['accepts' => 'string', 'path' => 'content.list.links[].title'], '3' => ['accepts' => 'string', 'path' => 'content.list.links[].read_more'], '4' => ['accepts' => 'image_url', 'path' => 'content.list.links[].image'], '5' => ['accepts' => 'image_url', 'path' => 'design.heading.background.layers[].image']];
+        return ['0' => ['accepts' => 'string', 'path' => 'content.advanced_list.heading'], '1' => ['accepts' => 'string', 'path' => 'content.list.links[].url'], '2' => ['accepts' => 'string', 'path' => 'content.list.links[].title'], '3' => ['accepts' => 'string', 'path' => 'content.list.links[].read_more'], '4' => ['accepts' => 'image_url', 'path' => 'content.list.links[].image'], '5' => ['accepts' => 'image_url', 'path' => 'design.heading.background.layers[].image'], '6' => ['accepts' => 'image_url', 'path' => 'design.wrapper.background.layers[].image']];
     }
 
     static function additionalClasses()

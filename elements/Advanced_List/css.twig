@@ -1,5 +1,8 @@
 %%SELECTOR%% {
   width: {{ design.layout.width.style }};
+  background-color: {{ design.wrapper.background }};
+  {{ macros.spacing_padding_all(design.wrapper.padding) }}
+  {{ macros.borders_without_shadows(design.wrapper.border) }}
   {{ macros.spacing_margin_y(design.spacing) }}
 }
 
